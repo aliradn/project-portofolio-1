@@ -51,3 +51,26 @@ data dictionary :
 
 
 ![1](https://user-images.githubusercontent.com/97732456/195076592-eec22234-e48e-4946-9e87-ee4f3d986447.png)
+
+![image](https://user-images.githubusercontent.com/97732456/195078438-d612de55-67de-49b1-9b72-9be78d52ea5d.png)
+
+
+Terlihat pada grafik, trend sales mengalamin kenaikan dari tahun ke tahun. Namun Pada tahun pertengahan 2015 hingga awal 2016 mengalami penurunan penjualanan pada semua sektor seperti segment kustomer dan kategori barang
+
+2. top 10 kota dan state penjualan terbanyak
+
+
+![1](https://user-images.githubusercontent.com/97732456/195077588-e2fb613d-1fa1-45d5-856c-6392dbb401a3.png)
+
+![1](https://user-images.githubusercontent.com/97732456/195078053-b0360e06-76f1-4de7-89dd-75e491317318.png)
+
+
+Pembelian pada kota New York paling tinggi dalam segi jumlah dan penjualanan .Namun kota bagian California yang paling tinggi dalam segi jumlah dan penjualanan
+
+3. top 10 product 
+
+
+![image](https://user-images.githubusercontent.com/97732456/195078246-cc027d62-472a-418b-9ee5-fa08007fa7a2.png)
+
+
+Produk staple dan staple envelop menjadi barang paling laris
