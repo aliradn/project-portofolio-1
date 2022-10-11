@@ -1,11 +1,18 @@
 # Superstore Sales Dataset
 #### Predict Sales using Time Series
 
-Memprediksi penjualan produk di masa depan membantu bisnis mengelola biaya produksi dan iklan produk. Masih banyak lagi manfaat memprediksi penjualan suatu produk di masa depan.
+##### Objective statement
+* Get business insiht sales per month
+* Get business insiht which popular consumer procudct 
 
-Analisis Time series berkaitan dengan data berbasis time series untuk mengekstrak pola prediksi dan karakteristik data lainnya. Ini menggunakan model untuk meramalkan nilai masa depan dalam kerangka waktu kecil berdasarkan pengamatan sebelumnya. Ini banyak digunakan untuk data non-stasioner, seperti data ekonomi, data cuaca, harga saham, dan peramalan penjualan ritel.
+#### Methodology :
+* Descriptive analysyis
+* Graph Analysis
+* Segment Analysis
 
-Dataset yang diberikan di sini berisi data tentang penjualan produk Retail dataset global superstore selama 4 tahun di Negara USA 
+#### Business benefit :
+* Helping Business developmnet Team to how to prevent lost in the future based on sales prediction
+
 
 ## Data Understanding
 data dari 2015-01-02 sampai 2018-12-30
@@ -30,3 +37,13 @@ data dictionary :
  14. Sub-Category : sub kategori barang
  15. Product Name : Nama produk/barang
  16. Sales : Penjualan dalam $
+
+
+### Data Preparation :
+* Python 3.10
+* packages : pandas,numpy,Mathplotlib, seaborn, sklearn, XGBoost
+
+### Data Cleansing :
+* terdapat missing value pada `Postal Code` sebanyak 11%, namun hal itu disebabkan karna pada `State` Vermont tidak memiliki postal code. Dapat di handle
+
+### EDA
