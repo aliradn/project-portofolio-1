@@ -91,6 +91,9 @@ Kita membuat kolom diff yaitu perbedaan pada kolom 'Sales' untuk membuat data st
 * fit model
 * train model
 * Model Evaluation
+Interpretation with predict data:
+1. On Average our prediction deviates the true `Sales` by 12610.952
+2. Moreover, this 12610.952 is equivalent to 21% deviation relative to the true `Sales`. which is still good (threshold 30%)
 * Visualisasi nilai prediksi
 
 
@@ -101,6 +104,9 @@ Kita membuat kolom diff yaitu perbedaan pada kolom 'Sales' untuk membuat data st
 * fit model
 * train model
 * Model Evaluation
+Interpretation with predict data:
+1. On Average our prediction deviates the true `Sales` 14614.438
+2. Moreover, this 12610.952 is equivalent to 23% deviation relative to the true `Sales`. which is still good (threshold 30%)
 * Visualisasi nilai prediksi
 
 
@@ -112,6 +118,9 @@ Kita membuat kolom diff yaitu perbedaan pada kolom 'Sales' untuk membuat data st
 * fit model
 * train model
 * Model Evaluation
+Interpretation with predict data:
+1. On Average our prediction deviates the true `Sales` 15665.56
+2. Moreover, this 12610.952 is equivalent to 24% deviation relative to the true `Sales`. which is still good (threshold 30%)
 * Visualisasi nilai prediksi
 
 
