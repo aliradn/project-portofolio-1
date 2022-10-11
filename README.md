@@ -48,4 +48,6 @@ data dictionary :
 
 ### EDA
 1. Montly Sales
+
+
 ![1](https://user-images.githubusercontent.com/97732456/195076592-eec22234-e48e-4946-9e87-ee4f3d986447.png)
