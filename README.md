@@ -119,6 +119,14 @@ Kita membuat kolom diff yaitu perbedaan pada kolom 'Sales' untuk membuat data st
 
 
 ### Comparing Forecast Sales using Machine Learning Algorithms
+Train model Regresi Linier, RF, XG Boost untuk memperkirakan jumlah barang yang terjual per bulan berturut-turut setelah memasukkan data penjualan 12 bulan sebelumnya. Model yang dilatih dievaluasi menggunakan Root Mean Squared Error, Mean Absolute Error,Mean Absolute Percentage Error, dan R2 Score antara nilai penjualan yang diprediksi dan nilai penjualan aktual dalam kumpulan data pengujian.
+
 
 
 ![image](https://user-images.githubusercontent.com/97732456/195083274-bb8516e6-d7d7-4b9b-b51c-29a43aa42fea.png)
+
+
+
+Semua model mampu memprediksi penjualan pelanggan dengan rata-rata root mean squared error sekitar 16677, mean absolute error sekitar 13667, dan skor R2 sekitar 0,35. 
+
+### Coclusion
