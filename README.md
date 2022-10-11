@@ -74,3 +74,51 @@ Pembelian pada kota New York paling tinggi dalam segi jumlah dan penjualanan .Na
 
 
 Produk staple dan staple envelop menjadi barang paling laris
+
+## Modelling
+### Prepared data set
+* Karena data menunjukkan tren yang meningkat dari waktu ke waktu,  perlu membuat data ini stasioner untuk meningkatkan fase pelatihan model.
+Kita membuat kolom diff yaitu perbedaan pada kolom 'Sales' untuk membuat data stasioner
+* Gunakan data pada 12 bulan sebelumnya sebagai input dan data penjualan bulan ke-13 digunakan sebagai output untuk model
+
+### Reprocessing
+* split data than using min max scaller
+* Dalam DataFrame , kolom pertama sesuai dengan output dan kolom yang tersisa bertindak sebagai fitur input:
+* Membuat kerangka data prediksi untuk menggabungkan harga jual yang diprediksi dari semua train algoritm 
+* Extract data bulan ke 13  yang menjadi test data. Nilai-nilai ini nantinya akan digunakan untuk mencari prediksi harga jual dari hasil prediksi selisih penjualan melalui model yang dilatih
+
+### Forecast Sales using Linear Regression
+* fit model
+* train model
+* Model Evaluation
+* Visualisasi nilai prediksi
+
+
+![image](https://user-images.githubusercontent.com/97732456/195079838-696949c1-175b-4093-9bc4-41cd49a61f62.png)
+
+
+### Forecast Sales using Random Forest Regressor
+* fit model
+* train model
+* Model Evaluation
+* Visualisasi nilai prediksi
+
+
+![image](https://user-images.githubusercontent.com/97732456/195080165-47335ded-06f5-477c-8058-ebc1e4281ce1.png)
+
+
+
+### Forecast Sales using XGBoost Regressor
+* fit model
+* train model
+* Model Evaluation
+* Visualisasi nilai prediksi
+
+
+![image](https://user-images.githubusercontent.com/97732456/195080288-64993a26-10cf-4069-af3e-0ade79946483.png)
+
+
+### Comparing Forecast Sales using Machine Learning Algorithms
+
+
+![image](https://user-images.githubusercontent.com/97732456/195083274-bb8516e6-d7d7-4b9b-b51c-29a43aa42fea.png)
